@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link rel="stylesheet" href="assets/css/catalog.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+
+  <header class="header">
+      <div class="container">
+          <div class="header__inner">
+              <input id="nav-toggle-checkbox" type="checkbox" />
+              <label class="menu__btn" for="nav-toggle-checkbox">
+                  <div class="nav-toggle" type="button">
+                      <span class="nav-toggle__item">Menu</span>
+                  </div>
+              </label>
+              <div class="header__logo">Каталог</div>
+
+              <nav class="nav">
+                <a class="nav__link" href="./index.html">о нас</a>
+                <a class="nav__link" href="#footer">контакты</a>
+                <a class="nav__link" href="./login.html">вход</a>
+                <a class="nav__link" href="./registration.html">регистрация</a>
+                <a class="nav__link" href="./catalog.html">каталог</a>
+                <a class="nav__link" href="./cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                
+            </nav>
+
+
+          </div>
+      </div>
+  </header>
+
+  <p>От скольки рублей?</p>
+    <input />
+    <p>До скольки рублей?</p>
+    <input />
+    <button type="submit">ОК</button>
+
+    <p>Как отсортировать?</p>
+    <button id="incr_button">По убыванию</button>
+    <button id="decr_button">По возрастанию</button>
+    <div class="container1"></div>
+    <footer class="footer"  id="footer">
+      <div class="footer-row">
+          <div class="footer-col">
+              <h4>О сайте</h4>
+              <p class="example_1">
+                  лучшие практики по медитации и фронтенду
+              </p>
+          </div>
+          <div class="footer-col">
+              <h4>Контакты</h4>
+              <p class="adress">
+                  г. Москва, пр. Вернадского, д. 78
+              </p>
+              <a href="tel:+79180348479" id="contacts">+7 (918) 034-84-79</a>
+                
+                <a href="mailto:yoga@mail.ru" id="contacts">yoga@mail.ru</a>
+                
+          </div>
+          
+          <div class="footer-col">
+              <h4>Соцсети</h4>
+              <p>Подпишись на рассылку, чтобы не пропустить самое интересное</p>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-vk"></i></a>
+              </div>
+              
+          </div>
+      </div>
+ </footer>
+  </body>
+  <script src="catalog.js"></script>
+</html>
